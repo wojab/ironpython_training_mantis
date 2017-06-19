@@ -18,6 +18,7 @@ class Application:
         self.session = SessionHelper(self)
         self.project = ProjectHelper(self)
         self.base_url=base_url
+        self.open_home_page()
 
     def is_valid(self):
         try:
